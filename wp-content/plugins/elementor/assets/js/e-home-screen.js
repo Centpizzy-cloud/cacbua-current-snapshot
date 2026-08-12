@@ -3420,7 +3420,7 @@ var buildRestHeaders = function buildRestHeaders() {
 };
 var getRestBaseUrl = function getRestBaseUrl() {
   var _window$wpApiSettings;
-  return ((_window$wpApiSettings = window.wpApiSettings) === null || _window$wpApiSettings === void 0 ? void 0 : _window$wpApiSettings.root) || '/wp-json/';
+  return ((_window$wpApiSettings = window.wpApiSettings) === null || _window$wpApiSettings === void 0 ? void 0 : _window$wpApiSettings.root) || '/cacbua-current-snapshot/wp-json/';
 };
 var clearHomeScreenSnapshot = exports.clearHomeScreenSnapshot = function clearHomeScreenSnapshot(siteKey, fullSnapshot) {
   if (!siteKey) {

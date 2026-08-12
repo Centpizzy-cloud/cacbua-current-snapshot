@@ -1,6 +1,6 @@
 .elementor-add-new-section .elementor-add-ast-site-button:not( .ast-elementor-white-label ) {
 	margin-right: 5px;
-	background-image: url("/wp-content/plugins/astra-sites/inc/assets/images/logo.svg");
+	background-image: url("/cacbua-current-snapshot/wp-content/plugins/astra-sites/inc/assets/images/logo.svg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: contain;
@@ -42,7 +42,7 @@
 }
 
 #ast-sites-modal .ast-sites-modal__header__logo__icon-wrapper {
-	background-image: url("/wp-content/plugins/astra-sites/inc/assets/images/logo.svg");
+	background-image: url("/cacbua-current-snapshot/wp-content/plugins/astra-sites/inc/assets/images/logo.svg");
 	-webkit-border-radius: 2px;
 	background-repeat: no-repeat;
 	background-position: center center;

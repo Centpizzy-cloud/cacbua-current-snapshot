@@ -10489,7 +10489,7 @@ function _fetchManagerUrl() {
     return _regenerator.default.wrap(function (_context2) {
       while (1) switch (_context2.prev = _context2.next) {
         case 0:
-          baseUrl = ((_window$wpApiSettings = window.wpApiSettings) === null || _window$wpApiSettings === void 0 ? void 0 : _window$wpApiSettings.root) || '/wp-json/';
+          baseUrl = ((_window$wpApiSettings = window.wpApiSettings) === null || _window$wpApiSettings === void 0 ? void 0 : _window$wpApiSettings.root) || '/cacbua-current-snapshot/wp-json/';
           nonce = ((_window$wpApiSettings2 = window.wpApiSettings) === null || _window$wpApiSettings2 === void 0 ? void 0 : _window$wpApiSettings2.nonce) || '';
           _context2.next = 1;
           return fetch("".concat(baseUrl, "elementor/v1/import-export-customization/manager-url?panel=").concat(panelId), {
@@ -11534,7 +11534,7 @@ function useClassesVariablesLimits(_ref) {
           setIsLoading(true);
           setError(null);
           _context.prev = 2;
-          baseUrl = ((_window$wpApiSettings = window.wpApiSettings) === null || _window$wpApiSettings === void 0 ? void 0 : _window$wpApiSettings.root) || '/wp-json/';
+          baseUrl = ((_window$wpApiSettings = window.wpApiSettings) === null || _window$wpApiSettings === void 0 ? void 0 : _window$wpApiSettings.root) || '/cacbua-current-snapshot/wp-json/';
           nonce = ((_window$wpApiSettings2 = window.wpApiSettings) === null || _window$wpApiSettings2 === void 0 ? void 0 : _window$wpApiSettings2.nonce) || '';
           _context.next = 3;
           return Promise.all([fetch("".concat(baseUrl, "elementor/v1/global-classes"), {

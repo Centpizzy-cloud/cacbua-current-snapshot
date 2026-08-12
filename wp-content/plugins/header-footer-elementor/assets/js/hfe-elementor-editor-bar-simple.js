@@ -54,7 +54,7 @@
                 // Create HFE button with plugin icon
                 const iconUrl = window.hfeEditorConfig && window.hfeEditorConfig.iconUrl 
                     ? window.hfeEditorConfig.iconUrl 
-                    : '/wp-content/plugins/header-footer-elementor/assets/images/settings/logo.svg';
+                    : '/cacbua-current-snapshot/wp-content/plugins/header-footer-elementor/assets/images/settings/logo.svg';
                 const hfeButton = $(`
                     <button type="button" class="${buttonClasses}" 
                             aria-label="Header Footer Elementor Dashboard" 
